@@ -1,0 +1,10 @@
+The code can be executed running main.py. It provides an interactive analysis tool for the given mole dataset. 
+Through a textual interface a user can ask to process a single image, inserting the name without extension (Ex: image->low_risk_1)
+or to perform batch analysis of a category (ex: category->low_risk/medium_risk/melanoma).
+The batch analysis produces in folder "fig": 
+-all images and plots related to analysed moles
+-2 histograms related to indentation and asymmetry for the category.
+A file containing results for the category and overall statistics called "category_results.txt" is saved in the same folder of main.py. 
+Once results files for all the 3 categories have been produced, final_hist.py can be run to produce two histograms summarizing the analysis of the whole dataset.
+
+
